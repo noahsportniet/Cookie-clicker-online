@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="game-container">
+      <!-- Use an image for the larger cookie -->
+      <img id="cookie" src="cookie.png"  onclick="clickCookie()" style="width: 150px; height: 150px;">
+      
+      <div id="cookies">0 cookies</div>
+      <div id="cps">0 cookies per second</div>
+    </div>
+  
+    <div id="sidebar">
+      <!-- Upgrade buttons with increased size -->
+      <button onclick="buyUpgrade('autoClicker', 50)">
+        <img src="auto-clicker-image.png" alt="Auto Clicker" style="width: 30px; height: 30px;">
+        Buy Auto-Clicker (Cost: 50 cookies)
+      </button>
+
+      <button onclick="buyUpgrade('cursor', 100)">
+        <img src="cursor-image.png" alt="Cursor" style="width: 30px; height: 30px;">
+        Buy Cursor (Cost: 100 cookies)
+      </button>
+
+      <button onclick="buyUpgrade('grandma', 200)">
+        <img src="grandma-image.png" alt="Grandma" style="width: 30px; height: 30px;">
+        Buy Grandma (Cost: 200 cookies)
+      </button>
+
+      <button onclick="buyUpgrade('factory', 500)">
+        <img src="factory-image.png" alt="Factory" style="width: 30px; height: 30px;">
+        Buy Factory (Cost: 500 cookies)
+      </button>
+
+      <button onclick="buyUpgrade('mine', 1000)">
+        <img src="mine-image.png" alt="Mine" style="width: 30px; height: 30px;">
+        Buy Mine (Cost: 1000 cookies)
+      </button>
+
+      <button onclick="buyUpgrade('shipment', 2000)">
+        <img src="shipment-image.png" alt="Shipment" style="width: 30px; height: 30px;">
+        Buy Shipment (Cost: 2000 cookies)
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

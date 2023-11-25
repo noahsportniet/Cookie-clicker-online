@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  #game-container {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  #sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  #cookie {
+    cursor: pointer;
+  }
+  
+  #cookie:hover {
+    opacity: 0.8;
+  }
+  
